@@ -8,8 +8,3 @@ while condition:
 
 '''
 
-this = 0
-
-while this <= 10:
-    this +=1
-    print('still going')
