@@ -168,7 +168,7 @@ print(f'{max_num} {middle_num} {min_num}')
 
 #12
 
-'''
+
 knuts = int(input('Enter amount of knuts: '))
 
 currency_list = []
@@ -187,15 +187,15 @@ if sickles > 0:
         currency_list.append(f'{sickles} sickle')
     else:
         currency_list.append(f'{sickles} sickles')
-if knuts > 0:
-    if knuts == 1:
+if remain_knuts > 0:
+    if remain_knuts == 1:
         currency_list.append(f'{remain_knuts} knut')
     else:
         currency_list.append(f'{remain_knuts} knuts')
 
 for item in currency_list:
     print(f'{item}', end = ' ')
-'''
+
     
 #13
 
@@ -278,9 +278,10 @@ elif age >= 40 and age <= 59:
     age_group = 'age 2'
 elif age >= 60 and age <= 79:
     age_group = 'age 3'
-'''
+
 
 print(f'Your resting heart rate should be between {heart_rates[age_group][athleticism_goal]}')
+'''
 
 #18
 
@@ -300,6 +301,7 @@ print(health_points)
 '''
 
 #19
+
 '''
 group_one = ['k', '1', '2', '3']
 group_two = ['4', '5', '6', '7', '8']
@@ -321,6 +323,6 @@ elif user_grade in group_three:
 am_or_pm = input('Enter morning or afternoon: ').lower()
 
 print(f'The pool is open at {time[answer][am_or_pm]}')
-'''
 
+'''
 
