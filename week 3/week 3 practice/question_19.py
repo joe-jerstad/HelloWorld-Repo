@@ -20,4 +20,4 @@ elif grade >= 9 and grade <= 12:
     elif time == 'afternoon':
         pool_time = '3 PM'
 
-print(f'The pool is open at {pool_time}.') 
+print(f'The pool is open at {pool_time}.')

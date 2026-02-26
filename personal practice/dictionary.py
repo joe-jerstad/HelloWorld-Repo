@@ -3,6 +3,7 @@ indices = {}
 target = 6
 
 for i, j in enumerate(nums):
-    indices[j] = i
+    indices[i] = j
 
 print(indices)
+
