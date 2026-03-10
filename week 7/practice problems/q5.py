@@ -13,3 +13,4 @@ test_1 = ['cat', 'dog', 'cat', 'cow', 'cow', 'cow']
 test_2 = [1,5,5,5,12,12,0,0,0,0,0,0]
 
 print(count_repetitions(test_2))
+

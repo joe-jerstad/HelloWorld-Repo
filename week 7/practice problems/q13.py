@@ -13,5 +13,3 @@ test_1 = ['apple', 'banana', 'orange']
 test_2 = ['grape', 'grape', 'grape', 'grape', 'grape']
 
 print(total_calories(test_2))
-
-print(len(calories))

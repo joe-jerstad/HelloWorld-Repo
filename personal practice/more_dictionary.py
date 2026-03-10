@@ -17,3 +17,4 @@ print(find_max(test_d))
 print(test_d['Emma'])
 
 #caching values, aka storing values once instead of calculating multiple times increases memory complexity but lowers time complexity
+#with many users increasing time taken can be more beneficial than increasing the memory used
